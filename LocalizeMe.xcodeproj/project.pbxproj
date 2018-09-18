@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		CE11B32D21510C1300C33020 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE11B32C21510C1300C33020 /* AppDelegate.m */; };
 		CE11B33021510C1300C33020 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE11B32F21510C1300C33020 /* ViewController.m */; };
-		CE11B33321510C1300C33020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE11B33121510C1300C33020 /* Main.storyboard */; };
 		CE11B33521510C2000C33020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE11B33421510C2000C33020 /* Assets.xcassets */; };
-		CE11B33821510C2000C33020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE11B33621510C2000C33020 /* LaunchScreen.storyboard */; };
 		CE11B33B21510C2000C33020 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE11B33A21510C2000C33020 /* main.m */; };
 		CE11B34521510C2100C33020 /* LocalizeMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE11B34421510C2100C33020 /* LocalizeMeTests.m */; };
 		CE11B35021510C2100C33020 /* LocalizeMeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE11B34F21510C2100C33020 /* LocalizeMeUITests.m */; };
+		CEB773182151340400123B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7731A2151340400123B09 /* Main.storyboard */; };
+		CEB773212151392C00123B09 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB773232151392C00123B09 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +40,7 @@
 		CE11B32C21510C1300C33020 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE11B32E21510C1300C33020 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CE11B32F21510C1300C33020 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CE11B33221510C1300C33020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE11B33421510C2000C33020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE11B33721510C2000C33020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CE11B33921510C2000C33020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE11B33A21510C2000C33020 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE11B34021510C2100C33020 /* LocalizeMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizeMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE11B34421510C2100C33020 /* LocalizeMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizeMeTests.m; sourceTree = "<group>"; };
@@ -51,6 +48,12 @@
 		CE11B34B21510C2100C33020 /* LocalizeMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizeMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE11B34F21510C2100C33020 /* LocalizeMeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizeMeUITests.m; sourceTree = "<group>"; };
 		CE11B35121510C2100C33020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB7731B2151341600123B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB7731D2151343F00123B09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		CEB7731E2151344D00123B09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		CEB773222151392C00123B09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEB773242151393400123B09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEB773302151455300123B09 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +104,15 @@
 		CE11B32A21510C1300C33020 /* LocalizeMe */ = {
 			isa = PBXGroup;
 			children = (
+				CEB773232151392C00123B09 /* Localizable.strings */,
 				CE11B32B21510C1300C33020 /* AppDelegate.h */,
 				CE11B32C21510C1300C33020 /* AppDelegate.m */,
 				CE11B32E21510C1300C33020 /* ViewController.h */,
 				CE11B32F21510C1300C33020 /* ViewController.m */,
-				CE11B33121510C1300C33020 /* Main.storyboard */,
+				CEB773302151455300123B09 /* Info.plist */,
 				CE11B33421510C2000C33020 /* Assets.xcassets */,
-				CE11B33621510C2000C33020 /* LaunchScreen.storyboard */,
-				CE11B33921510C2000C33020 /* Info.plist */,
 				CE11B33A21510C2000C33020 /* main.m */,
+				CEB7731A2151340400123B09 /* Main.storyboard */,
 			);
 			path = LocalizeMe;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = CE11B31F21510C1300C33020;
 			productRefGroup = CE11B32921510C1300C33020 /* Products */;
@@ -235,9 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE11B33821510C2000C33020 /* LaunchScreen.storyboard in Resources */,
 				CE11B33521510C2000C33020 /* Assets.xcassets in Resources */,
-				CE11B33321510C1300C33020 /* Main.storyboard in Resources */,
+				CEB773212151392C00123B09 /* Localizable.strings in Resources */,
+				CEB773182151340400123B09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,21 +304,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CE11B33121510C1300C33020 /* Main.storyboard */ = {
+		CEB7731A2151340400123B09 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE11B33221510C1300C33020 /* Base */,
+				CEB7731B2151341600123B09 /* Base */,
+				CEB7731D2151343F00123B09 /* en */,
+				CEB7731E2151344D00123B09 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CE11B33621510C2000C33020 /* LaunchScreen.storyboard */ = {
+		CEB773232151392C00123B09 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE11B33721510C2000C33020 /* Base */,
+				CEB773222151392C00123B09 /* en */,
+				CEB773242151393400123B09 /* fr */,
 			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
+			name = Localizable.strings;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -323,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -370,6 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -381,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -422,6 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
